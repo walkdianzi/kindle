@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         }
         //童玉龙
         //郑齐滇
+        //特性1
         // Do any additional setup after loading the view, typically from a nib.
     }
 
