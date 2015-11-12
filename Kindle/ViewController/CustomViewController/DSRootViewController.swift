@@ -14,25 +14,33 @@ class DSRootViewController: UIViewController {
     let navigationBarView: UIView = UIView(frame: CGRectZero)
     let navigationTitleLbl: UILabel = UILabel(frame: CGRectZero)
     
+    let blur: UIBlurEffect = UIBlurEffect.init(style: UIBlurEffectStyle.Light)
+    let effectView: UIVisualEffectView = UIVisualEffectView.init()
     
     // MARK: - lifeMethon
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.addSubview(navigationBarView)
-        navigationBarView.addSubview(navigationTitleLbl)
+        //加毛玻璃效果
+        effectView.effect = blur
+        effectView.frame = CGRect(x: 0, y: 0, width: kScreenWidth, height: 64)
+        effectView.addSubview(navigationBarView)
+        view.addSubview(effectView)
+        
+        view.addSubview(navigationTitleLbl)
     }
 
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        
+
         self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
     
     override func viewDidLayoutSubviews() {
         navigationBarView.frame = CGRect(x: 0, y: 0, width: kScreenWidth, height: 64)
+        
         navigationTitleLbl.frame = CGRect(x: 0, y: 20, width: kScreenWidth-100, height: 44)
-        navigationTitleLbl.font = UIFont.boldSystemFontOfSize(17)
+        navigationTitleLbl.font = kBoldFont17
         navigationTitleLbl.textColor = kColorStringBlack
         navigationTitleLbl.textAlignment = NSTextAlignment.Center
         navigationTitleLbl.setKcenterX(kScreenWidth/2)

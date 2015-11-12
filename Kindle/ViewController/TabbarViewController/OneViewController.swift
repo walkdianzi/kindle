@@ -14,7 +14,7 @@ class OneViewController: DSRootViewController {
         super.viewDidLoad()
         self.view.backgroundColor = kColorBackgroundGray
         self.navigationTitleLbl.text = "发现"
-        
+        self.effectView.alpha = 0
         // Do any additional setup after loading the view.
     }
 
