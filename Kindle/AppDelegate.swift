@@ -13,9 +13,39 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //定义四个视图
+        let oneView = OneViewController()
+        let twoView = TwoViewController()
+        let threeView = ThreeViewController()
+        let fourView = FourViewController()
+        
+        //导航栏
+        let oneNav: UINavigationController = UINavigationController(rootViewController: oneView)
+        let twoNav: UINavigationController = UINavigationController(rootViewController: twoView)
+        let threeNav: UINavigationController = UINavigationController(rootViewController: threeView)
+        let fourNav: UINavigationController = UINavigationController(rootViewController: fourView)
+        
+        
+        //tabbar
+        let oneItem: UITabBarItem = UITabBarItem(title: "发现", image: UIImage(named: "icon_tabbar_discover"), selectedImage: UIImage(named: "icon_tabbar_discover_selected"))
+        let twoItem: UITabBarItem = UITabBarItem(title: "书架", image: UIImage(named: "icon_tabbar_bookshelf"), selectedImage: UIImage(named: "icon_tabbar_bookshelf_selected"))
+        let threeItem: UITabBarItem = UITabBarItem(title: "想法", image: UIImage(named: "icon_tabbar_review"), selectedImage:UIImage(named: "icon_tabbar_review_selected"))
+        let fourItem: UITabBarItem = UITabBarItem(title: "我", image: UIImage(named: "icon_tabbar_profile"), selectedImage: UIImage(named: "icon_tabbar_profile_selected"))
+        
+        
+        oneView.tabBarItem = oneItem
+        twoView.tabBarItem = twoItem
+        threeView.tabBarItem = threeItem
+        fourView.tabBarItem = fourItem
+        
+        let tc = UITabBarController()
+        tc.tabBar.barTintColor = kColorBackgroundWhite
+        tc.viewControllers = [oneNav,twoNav,threeNav,fourNav]
+        self.window?.rootViewController = tc
+        
         return true
     }
 
