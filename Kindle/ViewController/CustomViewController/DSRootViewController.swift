@@ -31,7 +31,7 @@ class DSRootViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         navigationBarView.frame = CGRect(x: 0, y: 0, width: kScreenWidth, height: 64)
-        navigationTitleLbl.frame = CGRect(x: 0, y: 20, width: kScreenWidth-100, height: 44)
+        navigationTitleLbl.frame = CGRect(x: 0, y: 21, width: kScreenWidth-100, height: 44)
         navigationTitleLbl.font = UIFont.boldSystemFontOfSize(17)
         navigationTitleLbl.textColor = kColorStringBlack
         navigationTitleLbl.textAlignment = NSTextAlignment.Center
