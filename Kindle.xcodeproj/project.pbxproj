@@ -14,7 +14,6 @@
 		F907839C1BF1F647006A09D5 /* KindleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F907839B1BF1F647006A09D5 /* KindleTests.swift */; };
 		F90783A71BF1F647006A09D5 /* KindleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90783A61BF1F647006A09D5 /* KindleUITests.swift */; };
 		F90783B71BF21116006A09D5 /* DSTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90783B61BF21116006A09D5 /* DSTabBarController.swift */; };
-		F90783BC1BF218BA006A09D5 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90783BB1BF218BA006A09D5 /* NSObject.swift */; };
 		F953AEC81BF41E3500E6712C /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F953AEC71BF41E3500E6712C /* ThreeViewController.swift */; };
 		F953AECA1BF41E4B00E6712C /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F953AEC91BF41E4B00E6712C /* OneViewController.swift */; };
 		F953AECC1BF41E5C00E6712C /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F953AECB1BF41E5C00E6712C /* TwoViewController.swift */; };
@@ -22,7 +21,26 @@
 		F953AED51BF43EB800E6712C /* ColorHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F953AED41BF43EB800E6712C /* ColorHeader.swift */; };
 		F953AED71BF4451500E6712C /* DSRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F953AED61BF4451500E6712C /* DSRootViewController.swift */; };
 		F953AED91BF448DB00E6712C /* SizeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F953AED81BF448DB00E6712C /* SizeHeader.swift */; };
-		F953AEDB1BF44A9700E6712C /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F953AEDA1BF44A9700E6712C /* UIView.swift */; };
+		F953AEF71BF49B9700E6712C /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F953AEF61BF49B9700E6712C /* UIScrollView+EmptyDataSet.m */; };
+		F953AEFE1BF5C23900E6712C /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F953AEFC1BF5C23900E6712C /* NSObject.swift */; };
+		F953AEFF1BF5C23900E6712C /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F953AEFD1BF5C23900E6712C /* UIView.swift */; };
+		F953AF391BF5C31300E6712C /* BaseMantleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F953AF381BF5C31300E6712C /* BaseMantleModel.swift */; };
+		F953AF3D1BF5C50700E6712C /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F953AF3C1BF5C50700E6712C /* BookModel.swift */; };
+		F953AF3F1BF5C7F000E6712C /* MantleModelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F953AF3E1BF5C7F000E6712C /* MantleModelExt.swift */; };
+		F953AF611BF5CB9200E6712C /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F953AF441BF5CB9200E6712C /* EXTRuntimeExtensions.m */; };
+		F953AF621BF5CB9200E6712C /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = F953AF461BF5CB9200E6712C /* EXTScope.m */; };
+		F953AF631BF5CB9200E6712C /* MTLJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F953AF4A1BF5CB9200E6712C /* MTLJSONAdapter.m */; };
+		F953AF641BF5CB9200E6712C /* MTLManagedObjectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F953AF4C1BF5CB9200E6712C /* MTLManagedObjectAdapter.m */; };
+		F953AF651BF5CB9200E6712C /* MTLModel+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = F953AF4E1BF5CB9200E6712C /* MTLModel+NSCoding.m */; };
+		F953AF661BF5CB9200E6712C /* MTLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F953AF501BF5CB9200E6712C /* MTLModel.m */; };
+		F953AF671BF5CB9200E6712C /* MTLReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = F953AF521BF5CB9200E6712C /* MTLReflection.m */; };
+		F953AF681BF5CB9200E6712C /* MTLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = F953AF541BF5CB9200E6712C /* MTLValueTransformer.m */; };
+		F953AF691BF5CB9200E6712C /* NSArray+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F953AF561BF5CB9200E6712C /* NSArray+MTLManipulationAdditions.m */; };
+		F953AF6A1BF5CB9200E6712C /* NSDictionary+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F953AF581BF5CB9200E6712C /* NSDictionary+MTLManipulationAdditions.m */; };
+		F953AF6B1BF5CB9200E6712C /* NSError+MTLModelException.m in Sources */ = {isa = PBXBuildFile; fileRef = F953AF5A1BF5CB9200E6712C /* NSError+MTLModelException.m */; };
+		F953AF6C1BF5CB9200E6712C /* NSObject+MTLComparisonAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F953AF5C1BF5CB9200E6712C /* NSObject+MTLComparisonAdditions.m */; };
+		F953AF6D1BF5CB9200E6712C /* NSValueTransformer+MTLInversionAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F953AF5E1BF5CB9200E6712C /* NSValueTransformer+MTLInversionAdditions.m */; };
+		F953AF6E1BF5CB9200E6712C /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F953AF601BF5CB9200E6712C /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +74,6 @@
 		F90783A61BF1F647006A09D5 /* KindleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindleUITests.swift; sourceTree = "<group>"; };
 		F90783A81BF1F647006A09D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F90783B61BF21116006A09D5 /* DSTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSTabBarController.swift; sourceTree = "<group>"; };
-		F90783BB1BF218BA006A09D5 /* NSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
 		F953AEC71BF41E3500E6712C /* ThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
 		F953AEC91BF41E4B00E6712C /* OneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
 		F953AECB1BF41E5C00E6712C /* TwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
@@ -64,7 +81,45 @@
 		F953AED41BF43EB800E6712C /* ColorHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHeader.swift; sourceTree = "<group>"; };
 		F953AED61BF4451500E6712C /* DSRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSRootViewController.swift; sourceTree = "<group>"; };
 		F953AED81BF448DB00E6712C /* SizeHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeHeader.swift; sourceTree = "<group>"; };
-		F953AEDA1BF44A9700E6712C /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		F953AEF51BF49B9700E6712C /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		F953AEF61BF49B9700E6712C /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		F953AEF81BF49BAE00E6712C /* OCContainerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCContainerHeader.h; sourceTree = "<group>"; };
+		F953AEFC1BF5C23900E6712C /* NSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		F953AEFD1BF5C23900E6712C /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		F953AF381BF5C31300E6712C /* BaseMantleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMantleModel.swift; sourceTree = "<group>"; };
+		F953AF3C1BF5C50700E6712C /* BookModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		F953AF3E1BF5C7F000E6712C /* MantleModelExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MantleModelExt.swift; sourceTree = "<group>"; };
+		F953AF421BF5CB9200E6712C /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTKeyPathCoding.h; sourceTree = "<group>"; };
+		F953AF431BF5CB9200E6712C /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		F953AF441BF5CB9200E6712C /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		F953AF451BF5CB9200E6712C /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
+		F953AF461BF5CB9200E6712C /* EXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTScope.m; sourceTree = "<group>"; };
+		F953AF471BF5CB9200E6712C /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		F953AF481BF5CB9200E6712C /* Mantle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mantle.h; sourceTree = "<group>"; };
+		F953AF491BF5CB9200E6712C /* MTLJSONAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLJSONAdapter.h; sourceTree = "<group>"; };
+		F953AF4A1BF5CB9200E6712C /* MTLJSONAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLJSONAdapter.m; sourceTree = "<group>"; };
+		F953AF4B1BF5CB9200E6712C /* MTLManagedObjectAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLManagedObjectAdapter.h; sourceTree = "<group>"; };
+		F953AF4C1BF5CB9200E6712C /* MTLManagedObjectAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLManagedObjectAdapter.m; sourceTree = "<group>"; };
+		F953AF4D1BF5CB9200E6712C /* MTLModel+NSCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MTLModel+NSCoding.h"; sourceTree = "<group>"; };
+		F953AF4E1BF5CB9200E6712C /* MTLModel+NSCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MTLModel+NSCoding.m"; sourceTree = "<group>"; };
+		F953AF4F1BF5CB9200E6712C /* MTLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLModel.h; sourceTree = "<group>"; };
+		F953AF501BF5CB9200E6712C /* MTLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLModel.m; sourceTree = "<group>"; };
+		F953AF511BF5CB9200E6712C /* MTLReflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLReflection.h; sourceTree = "<group>"; };
+		F953AF521BF5CB9200E6712C /* MTLReflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLReflection.m; sourceTree = "<group>"; };
+		F953AF531BF5CB9200E6712C /* MTLValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLValueTransformer.h; sourceTree = "<group>"; };
+		F953AF541BF5CB9200E6712C /* MTLValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLValueTransformer.m; sourceTree = "<group>"; };
+		F953AF551BF5CB9200E6712C /* NSArray+MTLManipulationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		F953AF561BF5CB9200E6712C /* NSArray+MTLManipulationAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		F953AF571BF5CB9200E6712C /* NSDictionary+MTLManipulationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		F953AF581BF5CB9200E6712C /* NSDictionary+MTLManipulationAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		F953AF591BF5CB9200E6712C /* NSError+MTLModelException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+MTLModelException.h"; sourceTree = "<group>"; };
+		F953AF5A1BF5CB9200E6712C /* NSError+MTLModelException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+MTLModelException.m"; sourceTree = "<group>"; };
+		F953AF5B1BF5CB9200E6712C /* NSObject+MTLComparisonAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MTLComparisonAdditions.h"; sourceTree = "<group>"; };
+		F953AF5C1BF5CB9200E6712C /* NSObject+MTLComparisonAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MTLComparisonAdditions.m"; sourceTree = "<group>"; };
+		F953AF5D1BF5CB9200E6712C /* NSValueTransformer+MTLInversionAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValueTransformer+MTLInversionAdditions.h"; sourceTree = "<group>"; };
+		F953AF5E1BF5CB9200E6712C /* NSValueTransformer+MTLInversionAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValueTransformer+MTLInversionAdditions.m"; sourceTree = "<group>"; };
+		F953AF5F1BF5CB9200E6712C /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValueTransformer+MTLPredefinedTransformerAdditions.h"; sourceTree = "<group>"; };
+		F953AF601BF5CB9200E6712C /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValueTransformer+MTLPredefinedTransformerAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +170,8 @@
 		F90783851BF1F647006A09D5 /* Kindle */ = {
 			isa = PBXGroup;
 			children = (
+				F953AF371BF5C2BD00E6712C /* Models */,
+				F953AEDC1BF4919C00E6712C /* Lib */,
 				F953AECF1BF432C500E6712C /* Macro */,
 				F90783B81BF21633006A09D5 /* Util */,
 				F90783B41BF1FC88006A09D5 /* ViewController */,
@@ -166,8 +223,7 @@
 		F90783B81BF21633006A09D5 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				F90783BB1BF218BA006A09D5 /* NSObject.swift */,
-				F953AEDA1BF44A9700E6712C /* UIView.swift */,
+				F953AEFB1BF5C23900E6712C /* Extension */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -190,6 +246,90 @@
 				F953AED81BF448DB00E6712C /* SizeHeader.swift */,
 			);
 			path = Macro;
+			sourceTree = "<group>";
+		};
+		F953AEDC1BF4919C00E6712C /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				F953AF401BF5CB9200E6712C /* Mantle */,
+				F953AEF41BF49B9700E6712C /* DZNEmptyDataSet */,
+				F953AEF81BF49BAE00E6712C /* OCContainerHeader.h */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		F953AEF41BF49B9700E6712C /* DZNEmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				F953AEF51BF49B9700E6712C /* UIScrollView+EmptyDataSet.h */,
+				F953AEF61BF49B9700E6712C /* UIScrollView+EmptyDataSet.m */,
+			);
+			path = DZNEmptyDataSet;
+			sourceTree = "<group>";
+		};
+		F953AEFB1BF5C23900E6712C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F953AEFC1BF5C23900E6712C /* NSObject.swift */,
+				F953AEFD1BF5C23900E6712C /* UIView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F953AF371BF5C2BD00E6712C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F953AF3E1BF5C7F000E6712C /* MantleModelExt.swift */,
+				F953AF381BF5C31300E6712C /* BaseMantleModel.swift */,
+				F953AF3C1BF5C50700E6712C /* BookModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F953AF401BF5CB9200E6712C /* Mantle */ = {
+			isa = PBXGroup;
+			children = (
+				F953AF411BF5CB9200E6712C /* extobjc */,
+				F953AF481BF5CB9200E6712C /* Mantle.h */,
+				F953AF491BF5CB9200E6712C /* MTLJSONAdapter.h */,
+				F953AF4A1BF5CB9200E6712C /* MTLJSONAdapter.m */,
+				F953AF4B1BF5CB9200E6712C /* MTLManagedObjectAdapter.h */,
+				F953AF4C1BF5CB9200E6712C /* MTLManagedObjectAdapter.m */,
+				F953AF4D1BF5CB9200E6712C /* MTLModel+NSCoding.h */,
+				F953AF4E1BF5CB9200E6712C /* MTLModel+NSCoding.m */,
+				F953AF4F1BF5CB9200E6712C /* MTLModel.h */,
+				F953AF501BF5CB9200E6712C /* MTLModel.m */,
+				F953AF511BF5CB9200E6712C /* MTLReflection.h */,
+				F953AF521BF5CB9200E6712C /* MTLReflection.m */,
+				F953AF531BF5CB9200E6712C /* MTLValueTransformer.h */,
+				F953AF541BF5CB9200E6712C /* MTLValueTransformer.m */,
+				F953AF551BF5CB9200E6712C /* NSArray+MTLManipulationAdditions.h */,
+				F953AF561BF5CB9200E6712C /* NSArray+MTLManipulationAdditions.m */,
+				F953AF571BF5CB9200E6712C /* NSDictionary+MTLManipulationAdditions.h */,
+				F953AF581BF5CB9200E6712C /* NSDictionary+MTLManipulationAdditions.m */,
+				F953AF591BF5CB9200E6712C /* NSError+MTLModelException.h */,
+				F953AF5A1BF5CB9200E6712C /* NSError+MTLModelException.m */,
+				F953AF5B1BF5CB9200E6712C /* NSObject+MTLComparisonAdditions.h */,
+				F953AF5C1BF5CB9200E6712C /* NSObject+MTLComparisonAdditions.m */,
+				F953AF5D1BF5CB9200E6712C /* NSValueTransformer+MTLInversionAdditions.h */,
+				F953AF5E1BF5CB9200E6712C /* NSValueTransformer+MTLInversionAdditions.m */,
+				F953AF5F1BF5CB9200E6712C /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */,
+				F953AF601BF5CB9200E6712C /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */,
+			);
+			path = Mantle;
+			sourceTree = "<group>";
+		};
+		F953AF411BF5CB9200E6712C /* extobjc */ = {
+			isa = PBXGroup;
+			children = (
+				F953AF421BF5CB9200E6712C /* EXTKeyPathCoding.h */,
+				F953AF431BF5CB9200E6712C /* EXTRuntimeExtensions.h */,
+				F953AF441BF5CB9200E6712C /* EXTRuntimeExtensions.m */,
+				F953AF451BF5CB9200E6712C /* EXTScope.h */,
+				F953AF461BF5CB9200E6712C /* EXTScope.m */,
+				F953AF471BF5CB9200E6712C /* metamacros.h */,
+			);
+			path = extobjc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,16 +463,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F90783BC1BF218BA006A09D5 /* NSObject.swift in Sources */,
+				F953AF6E1BF5CB9200E6712C /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */,
+				F953AF3D1BF5C50700E6712C /* BookModel.swift in Sources */,
+				F953AF6B1BF5CB9200E6712C /* NSError+MTLModelException.m in Sources */,
+				F953AF691BF5CB9200E6712C /* NSArray+MTLManipulationAdditions.m in Sources */,
+				F953AF631BF5CB9200E6712C /* MTLJSONAdapter.m in Sources */,
+				F953AF6A1BF5CB9200E6712C /* NSDictionary+MTLManipulationAdditions.m in Sources */,
+				F953AF681BF5CB9200E6712C /* MTLValueTransformer.m in Sources */,
+				F953AF671BF5CB9200E6712C /* MTLReflection.m in Sources */,
 				F953AEC81BF41E3500E6712C /* ThreeViewController.swift in Sources */,
-				F953AEDB1BF44A9700E6712C /* UIView.swift in Sources */,
+				F953AEFE1BF5C23900E6712C /* NSObject.swift in Sources */,
 				F953AECC1BF41E5C00E6712C /* TwoViewController.swift in Sources */,
+				F953AF641BF5CB9200E6712C /* MTLManagedObjectAdapter.m in Sources */,
+				F953AF391BF5C31300E6712C /* BaseMantleModel.swift in Sources */,
 				F953AED51BF43EB800E6712C /* ColorHeader.swift in Sources */,
+				F953AF611BF5CB9200E6712C /* EXTRuntimeExtensions.m in Sources */,
+				F953AF621BF5CB9200E6712C /* EXTScope.m in Sources */,
+				F953AEFF1BF5C23900E6712C /* UIView.swift in Sources */,
 				F953AECA1BF41E4B00E6712C /* OneViewController.swift in Sources */,
+				F953AF651BF5CB9200E6712C /* MTLModel+NSCoding.m in Sources */,
+				F953AF6D1BF5CB9200E6712C /* NSValueTransformer+MTLInversionAdditions.m in Sources */,
 				F90783B71BF21116006A09D5 /* DSTabBarController.swift in Sources */,
+				F953AF661BF5CB9200E6712C /* MTLModel.m in Sources */,
+				F953AF6C1BF5CB9200E6712C /* NSObject+MTLComparisonAdditions.m in Sources */,
 				F953AED71BF4451500E6712C /* DSRootViewController.swift in Sources */,
+				F953AF3F1BF5C7F000E6712C /* MantleModelExt.swift in Sources */,
 				F953AED91BF448DB00E6712C /* SizeHeader.swift in Sources */,
 				F953AECE1BF41E6D00E6712C /* FourViewController.swift in Sources */,
+				F953AEF71BF49B9700E6712C /* UIScrollView+EmptyDataSet.m in Sources */,
 				F90783871BF1F647006A09D5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,6 +638,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dasheng.Kindle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Kindle/Lib/OCContainerHeader.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -493,6 +652,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dasheng.Kindle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Kindle/Lib/OCContainerHeader.h";
 			};
 			name = Release;
 		};

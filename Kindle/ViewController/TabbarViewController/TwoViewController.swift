@@ -12,8 +12,13 @@ class TwoViewController: DSRootViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = kColorBackgroundGray
+        self.navigationTitleLbl.text = "书架"
+        self.effectView.alpha = 0
+        
+        //let bookModel = (try! MTLJSONAdapter.modelOfClass(BookModel.self, fromJSONDictionary: ["id":"1234","bookName":"好书"])) as! BookModel
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

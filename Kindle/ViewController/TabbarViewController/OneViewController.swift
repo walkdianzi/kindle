@@ -11,10 +11,12 @@ import UIKit
 class OneViewController: DSRootViewController {
 
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         self.view.backgroundColor = kColorBackgroundGray
         self.navigationTitleLbl.text = "发现"
         self.effectView.alpha = 0
+        
         // Do any additional setup after loading the view.
     }
 
@@ -22,7 +24,6 @@ class OneViewController: DSRootViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
     /*
     // MARK: - Navigation
